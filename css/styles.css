@@ -647,5 +647,104 @@ body{
 }
 
 @media(max-width:767px){
-  
+  .first-page{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-page-img{
+    position: relative;
+  }
+
+  .first-left{
+    flex-grow: 0;
+    text-align: center;
+  }
+  .intro-pattern{
+    position: absolute;
+  }
+  .first-right{
+    flex-grow: 0;
+    width: max-content;
+    text-align: center;
+  }
+
+  .first-page-img{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: max-content;
+  }
+
+  .first-line{
+    visibility: hidden;
+  }
+.first-page-header{
+  font-size: 2.5rem;
+}
+  .first-page-button, .first-page-header{
+    margin: auto;
+    padding: 0;
+  }
+ .first-page-description{
+  padding: 0 3rem;
+  margin: 2rem 0 ;
+}
+
+
+  /*for second page*/
+  .second-page{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+
+  .second-line{
+    margin: auto;
+  }
+
+  .features{
+    flex-direction:column;
+  }
+
+  .snappy-process, .affordable-prices, .people-first{
+    margin-bottom: 2rem;
+  }
+
+
+  /*third-page*/
+  .find-more{
+    margin: 0;
+    padding: 4rem 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .find-more-left-header{
+    font-size: 3rem;
+  }
+
+  .find-more-button{
+    margin: 0;
+  }
+
+  /*for social media and others*/
+  .social-media{
+    margin: 2em 0;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-media-left, .social-media-right{
+    flex-grow: 0;
+    margin: 1rem;
+  }
+
+  .below{
+    margin: 0;
+    flex-direction:column;
+    text-align: center;
+  }
 }
