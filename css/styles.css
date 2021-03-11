@@ -539,6 +539,12 @@ body{
 
 
 @media(max-width:996px){
+
+  .header-navigation{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    }
+
   .first-page-header{
     font-size: 2.5rem;
     padding-right: 10rem;
@@ -623,6 +629,11 @@ body{
   .find-more-right-img{
     top: 95rem;
   }
+
+  .header-navigation{
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
 }
 
 @media(max-width:865px){
@@ -674,6 +685,13 @@ body{
   }
 }
 
+@media(max-width:804px){
+  .header-navigation{
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+
 
 @media(max-width:786px){
   .first-page-header{
@@ -687,6 +705,14 @@ body{
 
   .first-page-description{
     padding-right: 9rem;
+  }
+
+}
+
+@media(max-width:772px){
+  .header-navigation{
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
 }
