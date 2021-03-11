@@ -2,6 +2,47 @@ body{
   margin: 0;
 }
 
+/*for dropwDOWN*/
+.dropDown{
+  text-align: center;
+  background-color: black;
+  padding-bottom: 20rem;
+  padding-top: 3rem;
+
+}
+
+.not-showed{
+  display: none;
+  visibility: none;
+}
+
+.showed{
+  display: block;
+  visibility: visible;
+  animation-name: fading;
+  animation-duration: 1s;
+}
+
+@keyframes fading {
+  from{opacity: 0;}
+  to{opacity:1;}
+}
+
+
+.dropDown-link{
+  display: inline-block;
+  padding: 2rem 0;
+  font-family: 'Karla', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  width: 15rem;
+}
+
+.dropDown-link:hover{
+  border: 1px solid;
+}
+
 .toogle-info{
   display:none;
   cursor: pointer;
@@ -719,6 +760,11 @@ body{
  .first-page-description{
   padding: 0 3rem;
   margin: 2rem 0 ;
+}
+
+.intro-pattern, .first-second-image{
+  display: none;
+  visibility: hidden;
 }
 
 
