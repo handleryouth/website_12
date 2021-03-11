@@ -658,7 +658,7 @@ body{
     left: 0;
     bottom: 0;
     right: 0;
-    width: auto;
+    width: 100%;
     height: auto;
   }
 
@@ -671,7 +671,6 @@ body{
   }
   .first-right{
     flex-grow: 0;
-    width: max-content;
     text-align: center;
   }
 
@@ -737,6 +736,10 @@ body{
     margin: 0;
   }
 
+  .find-more{
+    overflow: hidden;
+  }
+
   /*for social media and others*/
   .social-media{
     margin: 2em 0;
@@ -753,12 +756,5 @@ body{
     margin: 0;
     flex-direction:column;
     text-align: center;
-  }
-}
-
-
-@media(max-width:538px){
-  .first-page-img{
-    max-width: 70%;
   }
 }
