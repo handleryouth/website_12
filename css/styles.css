@@ -2,6 +2,11 @@ body{
   margin: 0;
 }
 
+.toogle-info{
+  display:none;
+  cursor: pointer;
+}
+
 /*navigation bar*/
 .header-navigation{
   display: flex;
@@ -646,6 +651,32 @@ body{
 }
 
 @media(max-width:767px){
+.toogle-info{
+  display:block;
+}
+
+.right{
+  display: none;
+}
+
+
+.left{
+  margin-left: 3rem;
+}
+
+.toogle-info{
+  margin-right: 3rem;
+}
+
+
+
+/*for header*/
+  .header-navigation{
+    margin: 2rem 0;
+  }
+
+
+  /*first page*/
   .first-page{
     flex-direction: column-reverse;
     justify-content: center;
